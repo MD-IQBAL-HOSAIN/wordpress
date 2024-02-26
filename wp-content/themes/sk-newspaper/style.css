@@ -1,0 +1,201 @@
+/*
+Theme Name:SK Newspaper
+Theme URI: 
+Author: Silk Themes
+Author URI: https://silkthemes.com
+Version: 1.0.4
+Requires at least: 4.7
+Tested up to: 6
+Requires PHP: 5.6
+License: GNU General Public License, v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: newspaperss
+Text Domain: sk-newspaper
+
+Description: SK Newspaper ( Newspaperss Child Theme ) is a WordPress theme designed specifically for various types of websites related to news, including magazines, publishers, blogs, editors, online and gaming magazines, and personal blogs. It is also optimized for SEO, and its design is widget-based, allowing extensive customization for content management. It is fully responsive, ensuring smooth performance on mobile devices, tablets, laptops, and desktops.
+
+Tags:   grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template,threaded-comments,blog,news,food-and-drink
+
+SK Newspaper  WordPress Theme, Copyright 2023 silkthemes.com
+SK Newspaper is distributed under the terms of the GNU GPL
+
+SK Newspaper is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .slider-container{
+        min-height: 90vh;
+    }
+}
+.site-description{
+    color: black;
+}
+
+
+.sidebar-inner .widget_archive ul li a, 
+.sidebar-inner .widget_categories ul li a, 
+.sidebar-inner .widget_pages ul li a, 
+.sidebar-inner .widget_nav_menu ul li a, 
+.sidebar-inner .widget_portfolio_category ul li a {
+    line-height: 20px;
+    padding: 5px 0;
+    font-size: 15px;
+    color: #414141;
+    text-decoration: none;
+  }
+
+  .head-bottom-area ,.head-bottom-area .dropdown.menu .is-dropdown-submenu > li{
+    background-color:#186954;
+  }
+  .head-bottom-area .dropdown.menu a, .search-wrap .search-field, .head-bottom-area .dropdown.menu .is-dropdown-submenu > li a, .home .head-bottom-area .dropdown.menu .current-menu-item a{
+    color: rgb(255, 255, 255);
+  }
+
+  #topmenu .top-bar .top-bar-left .menu a{
+    color: rgb(0, 0, 0);
+  }
+  #topmenu,.off-canvas-content .title-bar{
+    background-color: #ffffff;
+  }
+  .head-top-area{
+    padding: 20px;
+  }
+
+  .post-wrap-big .post-title a,.post-list .post-title a{
+    text-decoration: none;
+  }
+  .post-cat-info a{
+    text-decoration: none;
+  }
+/*----------------------------------------------------
+breaking-news
+-------------------------------------------------------- */
+.breaking-news-wrap {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.breaking-news-inner {
+  position: relative;
+  display: block;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: 4px;
+  margin-right: 15px;
+  margin-left: 15px;
+  overflow: hidden;
+}
+.breaking-news-content .slick-slider {
+display: none;
+}
+.breaking-news-content .slick-slider.slick-initialized {
+display: block;
+}
+.breaking-news-title {
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+.breaking-news-title span {
+  display: block;
+  padding: 0 10px;
+  height: 22px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #ac3133;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+.breaking-news-title .mobile-headline {
+  display: none;
+  height: 22px;
+  color: #ac3133;
+  font-size: 16px;
+  line-height: 22px;
+}
+.breaking-news-content {
+  position: relative;
+  display: block;
+  max-width: 100%;
+}
+.breaking-news-content-inner {
+  z-index: 99;
+}
+.post-breaking-news.post-wrap {
+  overflow: hidden;
+  margin: 0 60px 0 0!important;
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.post-breaking-news .post-title {
+  position: relative;
+  left: 30px;
+  display: block;
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  font-weight: inherit;
+  line-height: 22px;
+  opacity: 0;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  font-size: 13px;
+  color: #282828;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.post-breaking-news .post-title a{
+  color: #282828;
+  font-size: .95em;
+}
+.slick-current.slick-active .post-breaking-news .post-title{
+opacity: 1;
+visibility: visible;
+}
+.breaking-news-content .newspaperss-slider-nav {
+  position: absolute;
+  display: block;
+  margin-top: -11px;
+  width: 22px;
+  height: 22px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: rgba(28,28,28,.07);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: .5;
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -ms-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+.breaking-news-content .newspaperss-slider-prev {
+  right: 27px;
+  left: auto;
+}
+.breaking-news-content .newspaperss-slider-next {
+  right: 0;
+}
+
+.slider-post-wrap.featured .entry-meta{
+  background: rgba(0, 0, 0, .2);
+}

@@ -1,0 +1,41 @@
+/* RTL css for newspaper AI */
+.mobile-menu .sticky.is-stuck{position:relative;}
+
+.dropdown.menu>li.is-dropdown-submenu-parent>a::after{
+	margin-top: -10px;
+  right: 8px;
+}
+
+.sidebar-inner .widget_archive ul li a:before, .sidebar-inner .widget_categories ul li a:before, .sidebar-inner .widget_pages ul li a:before, .sidebar-inner .widget_nav_menu ul li a:before, .sidebar-inner .widget_portfolio_category ul li a:before{
+	    margin-left: 8px
+}
+.menu-text .footer-copyright-text{
+	color:white;
+}
+.search-wrap .search-submit{
+	left:20px;
+	right:auto;
+}
+.eks{
+	left:0;
+	right:auto;
+}
+.search-wrap .fa-search{
+	left:30px;
+	right:auto;
+}
+.breadcrumbs .bread-home,.single-post-content-wrap .breadcrumb-wrap,.breadcrumb-wraps{
+	display:none;
+}
+.multilevel-offcanvas .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle)>a::after{
+	right: auto;
+    left: 5px;
+}
+
+
+.sidebar-inner .wp-block-search__button{
+    float: left;
+}
+.widget_search label{
+    float:right;
+}

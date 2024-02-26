@@ -1,0 +1,110 @@
+/*  ----------------------------------------------------
+add customizer control style
+-------------------------------------------------------- */
+.silkthemes-kirki-seperator {
+	margin: 20px 0 10px;
+	display: block;
+	position: relative;
+	font-size: 18px;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+	line-height: 1.5;
+	border-bottom: 1px solid #ccc;
+}
+
+.silkthemes-kirki-seperator::before {
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 60px;
+	background: #00baf4;
+	bottom: -1px;
+}
+.button-upsell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin: 10px;
+  padding: 12px 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: none;
+  text-transform: capitalize;
+  color: #fff;
+  border: 0 none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 160px;
+          flex: 0 0 160px;
+}
+.button-upsell:hover {
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  opacity: .85;
+	color: #fff;
+}
+
+
+
+        .button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+        .button-error {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
+
+        .button-warning {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
+
+        .button-blue {
+            background: rgb(66, 184, 221); /* this is a light blue */
+        }
+
+.translate_offer{
+padding: 30px;
+background-color: #333;
+color: #fff;
+border-radius: 50px;
+}
+#accordion-panel-upgradepro_options .accordion-section-title.dashicons-before.dashicons-warning{
+	color: coral;
+}
+
+#accordion-panel-newsupgradepro_options h3.accordion-section-title{
+    background-color: rgb(202, 60, 60);
+    color: #fff;
+
+}
+/*  ----------------------------------------------------
+add customizer button disable 
+-------------------------------------------------------- */
+#customize-control-newspaperss_headerbg_color-background .kirki-color-preview,
+#customize-control-newspaperss_topheader_color-text .kirki-color-preview,
+#customize-control-newspaperss_topheader_color-border_color .kirki-color-preview,
+#customize-control-newspaperss_topheader_color-bgcolor .kirki-color-preview,
+#customize-control-newspaperss_head2_menubg .kirki-color-preview {
+    cursor: not-allowed;
+}
