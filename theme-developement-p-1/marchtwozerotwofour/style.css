@@ -1,0 +1,22 @@
+/*
+Theme Name: March 2024
+Theme URI: https://coders24x7.com/57/themes/march2024/
+Author: the WDPF Team
+Author URI: https://coders24x7.com/
+Description: Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.
+Requires at least: 5.6
+Tested up to: 6.4
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: marchtwozerotwofour
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, style-variations, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
+
+March 2024 WordPress Theme, (C) 2021 coders24x7.com
+March 2024 is distributed under the terms of the GNU GPL.
+*/
+.wp-block-gallery{ display: flex !important; flex-wrap: wrap !important;}
+.post-title{ color: chocolate; transition: all 0.5s; }
+.post-title:hover{ color: blueviolet; }
+.post-categories{ list-style-type: none;}
