@@ -1,0 +1,14 @@
+/* Change the color of post titles */
+.entry-title a {
+    color: #ff6600; /* Choose your desired color */
+}
+
+/* Add box shadow to post titles */
+.entry-title {
+    box-shadow: 0px 5px 5px 5px rgba(100, 41, 172, 0.3); /* Adjust the box shadow as desired */
+    padding: 10px; /* Add some padding for better visibility */
+}
+.entry-title:hover {
+    box-shadow: 0px 5px 10px 10px rgba(67, 22, 123, 0.3); /* Adjust the box shadow as desired */
+    
+}
