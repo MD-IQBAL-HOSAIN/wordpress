@@ -1,0 +1,11 @@
+#quoteContainer{
+    font-size: 2em;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 2px 5px rgba(255,0,0,0.1);
+    transition: all 0.3s;
+}
+#quoteContainer:hover{
+    box-shadow: 0px 0px 5px 10px rgba(255,0,0,0.3);
+}
