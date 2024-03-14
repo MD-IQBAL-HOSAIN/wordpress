@@ -1,0 +1,27 @@
+/*
+Theme Name: My MY Theme
+Template: newspaperss
+Theme URI: https://coder24x7.com/sdagdfgf-pro/
+Author: Silk Themes
+Author URI: https://coder24x7.com/
+Version: 2.30.0
+Requires at least: 4.7 
+Tested up to: 6.4
+Requires PHP: 6.0
+License: GNU General Public License, v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: sdgdsgf
+Domain Path: /languages/
+
+Description: Newspaperss is a perfect WordPress theme for magazines, personal blogs, newspaperss, product reviews, content publishers or even newspaperss can be used for niche sites with curated contents.The theme is designed with the “mobile first” design, meaning it was designed for mobile from the beginning and was adapted for bigger screen afterward which results in a beautiful experience for the users, on all devices. It also comes with a Homepage with 4 custom Post widgets.
+
+Tags:   grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template,theme-options, threaded-comments,blog,news,food-and-drink
+
+newspaperss  WordPress Theme, Copyright 2022 silkthemes.com
+newspaperss  is distributed under the terms of the GNU GPL
+*/
+
+.cat-info-el:hover {
+    background-color: #de1f1f !important;
+  }
+

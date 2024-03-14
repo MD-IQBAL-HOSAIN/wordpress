@@ -1,0 +1,1 @@
+<h1>only single.php will work from child theme</h1>
