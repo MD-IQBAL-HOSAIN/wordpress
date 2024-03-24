@@ -1,0 +1,137 @@
+/* Dark */
+
+body.dark input[type="text"],
+body.dark input[type="email"],
+body.dark input[type="url"],
+body.dark input[type="password"],
+body.dark input[type="search"],
+body.dark input[type="number"],
+body.dark input[type="tel"],
+body.dark input[type="range"],
+body.dark input[type="date"],
+body.dark input[type="month"],
+body.dark input[type="week"],
+body.dark input[type="time"],
+body.dark input[type="datetime"],
+body.dark input[type="datetime-local"],
+body.dark input[type="color"],
+body.dark textarea,
+body.dark .widget_calendar table,
+body.dark .about-author,
+body.dark blockquote.wp-block-quote,
+body.dark .dt_header.header--one .dt_navbar-menu,
+body.dark .dt_switcherdarkbtn .dt_switcherdarkbtn-left:after {
+    background: rgba(255,255,255,.1);
+}
+
+body.dark .slick-dots li:not(.slick-active) button:before {
+	background: #fff;
+}
+
+body.dark .post.post-over-content .thumb:after,
+body.dark .dt_navbar-menu.is--sticky.on,
+body.dark .is--sticky.on,
+body.dark .dt_mobilenav {
+    background: #232a48;
+}
+
+body.dark .mainfeatured_section .post-tabs,
+body.dark .comment-list .comment .children .comment-body:before,
+body.dark .dt_footer_copyright .widget_nav_menu .sub-menu,
+body.dark .dt_footer .dt_navbar-mainmenu .dropdown-menu,
+body.dark .dt_navbar-cart-item .dt_navbar-shopcart,
+body.dark .dt_header .widget_nav_menu .sub-menu,
+body.dark .dt_navbar-nav .dt_navbar-mainmenu .dropdown-menu,
+body.dark .dt_mobilenav-mainmenu-inner,
+body.dark {
+    background-color: var(--dt-black-color);
+}
+
+body.dark .hero svg path {
+    fill: var(--dt-black-color);
+}
+
+body.dark .dt_footer.footer-dark,
+body.dark .dt_header-topbar,
+body.dark .page-header {
+    background-color: rgba(0,0,0,.5);
+}
+
+body.dark.btn--effect-one .dt-btn.dt-btn-secondary {
+    --dt-black-color: var(--dt-main-color);
+}
+
+body.dark .is--sticky.on,
+body.dark .dt_navbar-menu.is--sticky.on {
+    border-bottom: solid 1px rgba(189, 189, 189, 0.3);
+}
+
+body.dark .wp-block-calendar table:where(:not(.has-text-color)) td,
+body.dark .wp-block-calendar table:where(:not(.has-text-color)) th,
+body.dark .widget_calendar table td {
+    border-color: rgba(189, 189, 189, 0.3);
+}
+
+body.dark .post-carousel-lg .post,
+body.dark .dt_navbar-cart-item .dt_navbar-shopcart,
+body.dark .dt_header .widget_nav_menu .sub-menu,
+body.dark .dt_navbar-nav .dt_navbar-mainmenu .dropdown-menu {
+    border: solid 1px rgba(189, 189, 189, 0.3);
+}
+
+body.dark .tabs li button,
+body.dark .toptags-inner ul li a:not(:hover, :focus),
+body.dark .team-item .team-title a:not(:hover, :focus),
+body.dark .comment-form > p > label,
+body.dark .comment-meta .comment-metadata > a:not(:hover, :focus),
+body.dark .comments-area .comment-meta .comment-author a:not(:hover, :focus),
+body.dark .widget_calendar table td,
+body.dark input[type="text"],
+body.dark input[type="email"],
+body.dark input[type="url"],
+body.dark input[type="password"],
+body.dark input[type="search"],
+body.dark input[type="number"],
+body.dark input[type="tel"],
+body.dark input[type="range"],
+body.dark input[type="date"],
+body.dark input[type="month"],
+body.dark input[type="week"],
+body.dark input[type="time"],
+body.dark input[type="datetime"],
+body.dark input[type="datetime-local"],
+body.dark input[type="color"],
+body.dark textarea,
+body.dark blockquote.wp-block-quote p,
+body.dark .about-author .details h4.name a:not(:hover, :focus),
+body.dark .post .about-author .social-share .icons li a:not(:hover, :focus),
+body.dark .single-post-share .icons li a:not(:hover, :focus),
+body.dark .post .post-bottom .more-link,
+body.dark .dt_mobilenav-mainmenu-content .dt_mobilenav-dropdown-toggle button,
+body.dark .dt_header .widget_nav_menu .menu-item-has-children:not(:hover, .focus, .active)>a:after,
+body.dark .dt_footer .widget_nav_menu .menu-item-has-children:not(:hover, .focus, .active)>a:after,
+body.dark .dt_footer .dt_navbar-mainmenu .menu-item-has-children:not(:hover, .focus, .active)>a:after,
+body.dark .dt_navbar-nav .dt_navbar-mainmenu .dropdown-menu .menu-item-has-children:not(:hover, .focus, .active)>a:after,
+body.dark .dt_navbar-nav .dt_navbar-mainmenu .menu-item-has-children:not(:hover, .focus, .active)>a:after,
+body.dark .dt_footer_copyright .widget_nav_menu .sub-menu,
+body.dark .dt_footer .dt_navbar-mainmenu .dropdown-menu,
+body.dark .dt_navbar-cart-item .dt_navbar-shopcart,
+body.dark .dt_header .widget_nav_menu .sub-menu,
+body.dark .dt_navbar-nav .dt_navbar-mainmenu .dropdown-menu,
+body.dark .dt_navbar-mainmenu .dropdown-menu li:not(.active, .focus) a:not(:hover, :focus),
+body.dark .dt_mobilenav-mainmenu-inner .dt_navbar-mainmenu>li:not(.active, .focus)>a:not(:hover, :focus),
+body.dark .dt_mobilenav-mainmenu-inner li.menu-item-has-children ul.dropdown-menu li:not(.active, .focus)>a:not(:hover, :focus),
+body.dark .dt_navbar-nav .dt_navbar-mainmenu>li:not(.active, .focus)>a:not(:hover, :focus),
+body.dark .post .social-share:not(.single-post-share) .icons li a:hover,
+body.dark .post .social-share:not(.single-post-share) .icons li a:focus,
+body.dark .site--logo .site--title,
+body.dark .widget ul:not(.wp-block-social-links) li a:not(:hover, :focus),
+body.dark .post .post-title a:not(:hover, :focus),
+body.dark h1, body.dark .h1,
+body.dark h2, body.dark .h2,
+body.dark h3, body.dark .h3,
+body.dark h4, body.dark .h4,
+body.dark h5, body.dark .h5,
+body.dark h6, body.dark .h6 {
+    color: #fff;
+}
