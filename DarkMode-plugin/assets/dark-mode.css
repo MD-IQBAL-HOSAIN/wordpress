@@ -1,0 +1,13 @@
+/* dark-mode.css */
+
+body {
+    background-color: #333;
+    color: #fff;
+    /* অন্যান্য ডার্ক মোড স্টাইল সংযোজন করুন */
+}
+
+#darkModeBtn {
+    background-color: #444;
+    color: #fff;
+    /* অন্যান্য ডার্ক মোড বাটন স্টাইল সংযোজন করুন */
+}
